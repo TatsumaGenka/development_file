@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var count = 0 //文字切り替え
     var tapcount : Int = 0 //タップ数カウント
     var cnt : Int = 0 //タイマー(仮)
-    let n : Int = 0  //タイマー(仮)
+    var n : Int = 0  //タイマー(仮)
     
     
     //testcomment
@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         
         while n < 100 {
             sleep(1)
-            cnt += 1
-            let str = "".appendingFormat("%d",cnt)
+            n += 1
+            let str = "".appendingFormat("%d",n)
             timer.text = str
         }
         
