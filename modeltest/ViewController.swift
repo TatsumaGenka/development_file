@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     var cnt : Int = 0 //タイマー(仮)
     let n : Int = 0  //タイマー(仮)
     
+    
+    //testcomment
+    
     //タイマー
     
     @IBOutlet weak var timer: UILabel!
