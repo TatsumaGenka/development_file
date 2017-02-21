@@ -94,10 +94,38 @@ class ViewController: UIViewController {
     //連打
     
     @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var hundred: UILabel!
     @IBAction func tap(_ sender: UIButton) {
         
         tapcount += 1
         result.text = String(tapcount)
+        
+        if tapcount == 100 {
+            hundred.text = "100回目おめでとう！"
+        } else if tapcount == 500 {
+            hundred.text = "500回目おめでとう！"
+        } else if tapcount == 777 {
+            hundred.text = "777回目おめでとう！"
+        } else if tapcount == 1000 {
+            hundred.text = "1000回目おめでとう！"
+        } else if tapcount == 2000 {
+            hundred.text = "2000回目おめでとう！"
+        } else if tapcount == 3000 {
+            hundred.text = "3000回目おめでとう！"
+        } else if tapcount == 4000 {
+            hundred.text = "4000回目おめでとう！"
+        } else if tapcount == 5000 {
+            hundred.text = "5000回目おめでとう！"
+        } else if tapcount == 7777 {
+            hundred.text = "7777回目おめでとう！"
+        } else if tapcount == 10000 {
+            hundred.text = "10000回目おめでとう！"
+        } else {
+        hundred.text = ""
+        }
+            
+            
+        
         
     }
     
