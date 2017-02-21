@@ -492,7 +492,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6G2-E6-1vy">
-                                <rect key="frame" x="165" y="219" width="80" height="47"/>
+                                <rect key="frame" x="165" y="219" width="124" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" red="0.11668672014602832" green="1" blue="0.39536878549469912" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -655,7 +655,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="ZJT-4M-sif"/>
         <segue reference="Vst-eC-Enu"/>
-        <segue reference="8vs-S2-doB"/>
+        <segue reference="bgX-bP-QD8"/>
         <segue reference="SiD-O5-Gh9"/>
     </inferredMetricsTieBreakers>
 </document>
