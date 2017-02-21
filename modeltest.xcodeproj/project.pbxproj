@@ -14,6 +14,10 @@
 		815B0DE81E00000200A453E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815B0DE61E00000200A453E1 /* LaunchScreen.storyboard */; };
 		815B0DF31E00000200A453E1 /* modeltestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B0DF21E00000200A453E1 /* modeltestTests.swift */; };
 		815B0DFE1E00000300A453E1 /* modeltestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815B0DFD1E00000300A453E1 /* modeltestUITests.swift */; };
+		E7FF911A1E5C2B5D009915F9 /* kou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7FF91191E5C2B5D009915F9 /* kou.jpg */; };
+		E7FF911C1E5C2B67009915F9 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7FF911B1E5C2B67009915F9 /* map.jpg */; };
+		E7FF911E1E5C2CDD009915F9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF911D1E5C2CDD009915F9 /* ViewController2.swift */; };
+		E7FF91201E5C2DC3009915F9 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FF911F1E5C2DC3009915F9 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		815B0DF91E00000300A453E1 /* modeltestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = modeltestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		815B0DFD1E00000300A453E1 /* modeltestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeltestUITests.swift; sourceTree = "<group>"; };
 		815B0DFF1E00000300A453E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FF91191E5C2B5D009915F9 /* kou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kou.jpg; sourceTree = "<group>"; };
+		E7FF911B1E5C2B67009915F9 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		E7FF911D1E5C2CDD009915F9 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
+		E7FF911F1E5C2DC3009915F9 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 				815B0DF11E00000200A453E1 /* modeltestTests */,
 				815B0DFC1E00000300A453E1 /* modeltestUITests */,
 				815B0DDB1E00000200A453E1 /* Products */,
+				E7FF91191E5C2B5D009915F9 /* kou.jpg */,
+				E7FF911B1E5C2B67009915F9 /* map.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				815B0DDD1E00000200A453E1 /* AppDelegate.swift */,
+				E7FF911D1E5C2CDD009915F9 /* ViewController2.swift */,
 				815B0DDF1E00000200A453E1 /* ViewController.swift */,
 				815B0DE11E00000200A453E1 /* Main.storyboard */,
+				E7FF911F1E5C2DC3009915F9 /* ViewController3.swift */,
 				815B0DE41E00000200A453E1 /* Assets.xcassets */,
 				815B0DE61E00000200A453E1 /* LaunchScreen.storyboard */,
 				815B0DE91E00000200A453E1 /* Info.plist */,
@@ -233,8 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				815B0DE81E00000200A453E1 /* LaunchScreen.storyboard in Resources */,
+				E7FF911A1E5C2B5D009915F9 /* kou.jpg in Resources */,
 				815B0DE51E00000200A453E1 /* Assets.xcassets in Resources */,
 				815B0DE31E00000200A453E1 /* Main.storyboard in Resources */,
+				E7FF911C1E5C2B67009915F9 /* map.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +275,8 @@
 			files = (
 				815B0DE01E00000200A453E1 /* ViewController.swift in Sources */,
 				815B0DDE1E00000200A453E1 /* AppDelegate.swift in Sources */,
+				E7FF91201E5C2DC3009915F9 /* ViewController3.swift in Sources */,
+				E7FF911E1E5C2CDD009915F9 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
