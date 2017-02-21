@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F20AE2040BF928857E27C3B3D0B1F56F4D1AD69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F20AE2040BF928857E27C3B3D0B1F56F4D1AD69" : 9223372036854775807,
+    "A77DDD5DE7340A6F223D195376873112FB2C0888" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6F3E4F0C-E1D4-4296-8837-D24AA5839294",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F20AE2040BF928857E27C3B3D0B1F56F4D1AD69" : "development_file\/",
+    "A77DDD5DE7340A6F223D195376873112FB2C0888" : "moderingu\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "modeltest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "modeltest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TatsumaGenka\/development_file",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F20AE2040BF928857E27C3B3D0B1F56F4D1AD69"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TatsumaGenka\/ieModeling2016-D.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A77DDD5DE7340A6F223D195376873112FB2C0888"
+    }
+  ]
+}

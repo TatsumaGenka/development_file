@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="256.80000000000001" y="136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller5-->
         <scene sceneID="trc-HB-2qR">
             <objects>
-                <viewController id="EfC-Tv-HLI" sceneMemberID="viewController">
+                <viewController id="EfC-Tv-HLI" customClass="ViewController5" customModule="modeltest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vf6-tQ-SlK"/>
                         <viewControllerLayoutGuide type="bottom" id="P6h-0e-RV2"/>
@@ -113,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="825" y="-1397"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller6-->
         <scene sceneID="KwY-eZ-60k">
             <objects>
-                <viewController id="a9E-rr-FSg" sceneMemberID="viewController">
+                <viewController id="a9E-rr-FSg" customClass="ViewController6" customModule="modeltest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hA6-8z-1PI"/>
                         <viewControllerLayoutGuide type="bottom" id="A1d-hd-n9g"/>
@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="1692" y="-1397.4512743628186"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller7-->
         <scene sceneID="ryk-4n-HdH">
             <objects>
-                <viewController id="uE0-Da-abo" sceneMemberID="viewController">
+                <viewController id="uE0-Da-abo" customClass="ViewController7" customModule="modeltest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UMG-Ka-tsM"/>
                         <viewControllerLayoutGuide type="bottom" id="JL4-5a-EdL"/>
@@ -279,10 +279,10 @@
             </objects>
             <point key="canvasLocation" x="1692" y="-646.32683658170924"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller8-->
         <scene sceneID="84T-QO-bA8">
             <objects>
-                <viewController id="eVk-Sn-mwJ" sceneMemberID="viewController">
+                <viewController id="eVk-Sn-mwJ" customClass="ViewController8" customModule="modeltest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ofe-Xb-yKL"/>
                         <viewControllerLayoutGuide type="bottom" id="VUu-nc-nAr"/>
@@ -645,6 +645,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="gch-cB-JQv"/>
         <segue reference="W4U-NO-qHh"/>
-        <segue reference="4aX-WM-QqC"/>
+        <segue reference="SiD-O5-Gh9"/>
     </inferredMetricsTieBreakers>
 </document>
