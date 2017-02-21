@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    /* とっ散らかってるコメントアウトは自分用にとりあえず残してるだけなんで合わせるときは消してもらって結構です。 タイマーはsleep()使えばできるかもです。 ソースコードコピペしてアウトレット接続すれば問題なく動くと思います。 */
+    
     
     //グローバル変数
     var count = 0 //文字切り替え
@@ -39,38 +39,38 @@ class ViewController: UIViewController {
         
         //for inを使う
         /*for i in 0 ..< 100 {
-            
-            sleep(1)
-            print(i)
-            i = cnt
-            cnt += 1
-            let str = "".appendingFormat("%.1f",cnt)
-            timer.text = str
-        }
- */
-    
-    
+         
+         sleep(1)
+         print(i)
+         i = cnt
+         cnt += 1
+         let str = "".appendingFormat("%.1f",cnt)
+         timer.text = str
+         }
+         */
+        
+        
         //関数forEachを使う
-       /* (0 ..< 100).forEach { (num) in
-            print(num)
-        }
-        
-        //短縮形
-        (0 ..< 100).forEach { print($0) }
-        
-        //for i in 0 ..< 10 {
-            
-    
-        //for var i = 0 ; i < 100 ; i++ {
-        //for i in 0 ..< 100000 {
-        sleep(1)
-        cnt += 1
-       //}
-    
-        let str = "".appendingFormat("%.1f",cnt)
-        
-        timer.text = str
-        */
+        /* (0 ..< 100).forEach { (num) in
+         print(num)
+         }
+         
+         //短縮形
+         (0 ..< 100).forEach { print($0) }
+         
+         //for i in 0 ..< 10 {
+         
+         
+         //for var i = 0 ; i < 100 ; i++ {
+         //for i in 0 ..< 100000 {
+         sleep(1)
+         cnt += 1
+         //}
+         
+         let str = "".appendingFormat("%.1f",cnt)
+         
+         timer.text = str
+         */
         
     }
     
@@ -94,17 +94,45 @@ class ViewController: UIViewController {
     //連打
     
     @IBOutlet weak var result: UILabel!
+    @IBOutlet weak var hundred: UILabel!
     @IBAction func tap(_ sender: UIButton) {
         
         tapcount += 1
         result.text = String(tapcount)
+        
+        if tapcount == 100 {
+            hundred.text = "100回目おめでとう！"
+        } else if tapcount == 500 {
+            hundred.text = "500回目おめでとう！"
+        } else if tapcount == 777 {
+            hundred.text = "777回目おめでとう！"
+        } else if tapcount == 1000 {
+            hundred.text = "1000回目おめでとう！"
+        } else if tapcount == 2000 {
+            hundred.text = "2000回目おめでとう！"
+        } else if tapcount == 3000 {
+            hundred.text = "3000回目おめでとう！"
+        } else if tapcount == 4000 {
+            hundred.text = "4000回目おめでとう！"
+        } else if tapcount == 5000 {
+            hundred.text = "5000回目おめでとう！"
+        } else if tapcount == 7777 {
+            hundred.text = "7777回目おめでとう！"
+        } else if tapcount == 10000 {
+            hundred.text = "10000回目おめでとう！"
+        } else {
+            hundred.text = ""
+        }
+        
+        
+        
         
     }
     
     func updateCounter(cnt : Int) {
         //result.text = String(cnt)
     }
-
+    
     //文字切り替え
     
     @IBOutlet weak var character: UILabel!
@@ -116,13 +144,13 @@ class ViewController: UIViewController {
         if count == 100 {
             character.text = "100回目のタップだよ！"
         } else if count == 500 {
-                character.text = "500回目だよ！暇を持て余してるんだね？"
+            character.text = "500回目だよ！暇を持て余してるんだね？"
         } else if count%2 == 0 {
             character.text = "課題頑張れ！"
         } else if count%3 == 0 {
             character.text = "できる〜できる〜君ならできる〜"
         } else if count%5 == 0 {
-                character.text = "指疲れてきてない？"
+            character.text = "指疲れてきてない？"
         } else if count%7 == 0 {
             character.text = "キツネの鳴き声は様々でコンコンではないらしいよ"
         } else {
@@ -177,4 +205,4 @@ class ViewController: UIViewController {
  // Dispose of any resources that can be recreated.
  }
  }
-*/
+ */
